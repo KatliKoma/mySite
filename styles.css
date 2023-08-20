@@ -19,13 +19,13 @@ body {
 }
 .card-title {
   font-style: italic;
-  font-family: cursive;
+  font-family: sans-serif;
   color: #333;
   font-weight: bold;
 }
 p {
   font-style: italic;
-  font-family: cursive;
+  font-family: sans-serif;
   color: #333;
   font-weight: bold; 
 }
@@ -70,5 +70,17 @@ iframe {
   /* TV Styles */
   .container {
     max-width: 1200px;
+  }
+}
+@media (max-width: 767px) {
+  /* Mobile Styles */
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 0;
   }
 }
