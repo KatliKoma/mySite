@@ -72,3 +72,15 @@ iframe {
     max-width: 1200px;
   }
 }
+@media (max-width: 767px) {
+  /* Mobile Styles */
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 0;
+  }
+}
